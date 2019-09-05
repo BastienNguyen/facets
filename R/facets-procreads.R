@@ -2,7 +2,7 @@
 procSnps <- function(rcmat, ndepth=35, het.thresh=0.25, snp.nbhd=250, nX=23, unmatched=FALSE, ndepthmax=1000) {
     # keep only chromsomes 1-22 & X for humans and 1-19, X for mice
     # for other genomes (gbuild = udef) nX is number of autosomes plus 1
-    chromlevels <- c(1:(nX-1),"X")
+    chromlevels <- c(1:22,"X", "Y")
     chr.keep <- rcmat$Chromosome %in% chromlevels
     # keep only snps with normal read depth between ndepth and 1000
     depthN.keep <- (rcmat$NOR.DP >= ndepth) & (rcmat$NOR.DP < ndepthmax)
