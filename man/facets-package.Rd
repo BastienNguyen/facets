@@ -1,24 +1,24 @@
-\name{facets-package}
-\alias{facets-package}
-\alias{facets}
+\name{facetsY-package}
+\alias{facetsY-package}
+\alias{facetsY}
 \docType{package}
 \title{
-  \packageTitle{facets}
+  \packageTitle{facetsY}
 }
 \description{
-  \packageDescription{facets}
+  \packageDescription{facetsY}
 }
 \details{
-  FACETS stands for Fraction and Allelic Copy number Estimation from
-  Tumor/normal Sequencing. It uses high coverage next generation
+  FACETS Y stands for Fraction and Allelic Copy number Estimation from
+  Tumor/normal Sequencing. INCLUDING Y CHROMOSOME. It uses high coverage next generation
   sequencing data (whole exome or targeted) to estimate the total and
   integer allele specific copy numbers as well as the tumor purity and
   ploidy. The methodology is described in the reference paper.
 }
 \author{
-\packageAuthor{facets}
+\packageAuthor{facetsY}
 
-Maintainer: \packageMaintainer{facets}
+Maintainer: \packageMaintainer{facetsY}
 }
 \references{
   Shen, R and Seshan, VE (2016). FACETS: allele-specific copy number and
