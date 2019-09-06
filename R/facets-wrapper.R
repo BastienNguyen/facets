@@ -60,7 +60,7 @@ procSample <- function(x, cval=150, min.nhet=15, dipLogR=NULL) {
     chrs <- x$chromlevels
     nchr <- length(chrs)
     # get chromlevels from chrs
-    chromlevels <- c(1:(nX-1), "X")[chrs]
+    chromlevels <- c(1:22, "X", "Y")[chrs]
     # get the segment summary for the fit in seg.tree
     nsegs <- 0
     for (i in 1:nchr) {
